@@ -1,0 +1,33 @@
+.sidebar {
+  height: 90%;
+  width: 15%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  font-size: medium;
+}
+.spotify-logo {
+  height: 50px;
+}
+.text-spotify {
+  font-size: x-large;
+}
+.bi-side {
+  font-size: x-large;
+  font-style: normal;
+}
+.text-home {
+  font-size: medium;
+}
+
+.center-container {
+  margin-left: 345px;
+  margin-right: auto;
+}
+
+.goodmorning {
+  background-color: blue;
+}
+.second-line {
+  background-color: red;
+}
