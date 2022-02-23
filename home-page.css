@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(169deg, rgb(60, 14, 8) 0%, rgb(14, 14, 15) 46%);
+  min-height: 100vh;
+}
+.sidebar {
+  height: 100%;
+  width: 15%;
+  background-color: black;
+  color: rgb(163, 152, 152);
+  position: absolute;
+  font-size: medium;
+}
+p:hover,
+i:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+}
+.spotify-logo {
+  height: 50px;
+}
+.text-spotify {
+  font-size: x-large;
+}
+.bi-side {
+  font-size: x-large;
+  font-style: normal;
+}
+.text-home {
+  font-size: medium;
+}
+.bi-playlist {
+  border: gray;
+  font-style: normal;
+}
+.bi-liked {
+  color: rgb(163, 152, 152);
+  font-style: normal;
+}
+.hr {
+  background-color: white;
+}
+.second-part-text {
+  color: gray;
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.bi-person {
+  margin-left: 80px;
+}
+.bi-person2 {
+  margin-left: 89px;
+}
+.bi-arrow {
+  border-color: gray;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+header svg {
+  color: #dee2e6;
+  width: 20px;
+  height: 20px;
+}
+.top-section {
+  margin-left: 200px;
+  padding: 0px 10px;
+}
+h6 {
+  color: #dee2e6;
+  font-weight: 30;
+  font-size: 0.75em;
+}
+h4 {
+  color: #dee2e6;
+  font-weight: 500;
+  font-size: medium;
+}
+
+div.opacity {
+  background: rgba(46, 45, 45, 0.5);
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.box img {
+  max-width: 80px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.box_title {
+  margin-left: 5px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.large-boxes {
+  display: flex;
+  padding: auto;
+}
+
+.large-boxes_box {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.large-boxes_box-title {
+  padding: 8px 0;
+}
+
+.large-boxes_box-title-description {
+  font-weight: 100;
+  font-size: 0.6rem;
+}
+
+.large-boxes_box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
