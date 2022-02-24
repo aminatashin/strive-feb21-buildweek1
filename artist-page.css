@@ -1,32 +1,16 @@
-body,
-html {
-  min-height: 100%;
-}
-
-.bg {
+.wraping {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  background-image: url(./adam-queen-2.jfif);
-
-  /* Full height */
-  height: 20%;
-
-  /* Center and scale the image nicely */
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  padding: 250px 50px;
-  margin-left: 290px;
 }
 .sidebar {
-  height: 150%;
-  width: 15%;
   background-color: black;
   color: rgb(163, 152, 152);
-  position: absolute;
+
   font-size: medium;
+  width: 300px;
+}
+.inside-sidebar {
+  margin: 10px 10px;
+  font-size: small;
 }
 p:hover,
 i:hover {
@@ -34,33 +18,50 @@ i:hover {
   color: white;
 }
 .spotify-logo {
-  height: 50px;
+  height: 40px;
+  margin-left: 6px;
 }
 .text-spotify {
   font-size: x-large;
 }
+.home-search-library {
+  display: flex;
+  flex-direction: column;
+}
 .bi-side {
-  font-size: x-large;
+  font-size: medium;
   font-style: normal;
 }
 .text-home {
-  font-size: medium;
+  font-size: small;
+  margin-left: 12px;
+}
+.playlist-liked {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
 }
 .bi-playlist {
+  display: flex;
   border: gray;
-  font-style: normal;
+  font-style: medium;
 }
 .bi-liked {
   color: rgb(163, 152, 152);
   font-style: normal;
+
+  font-size: medium;
+}
+.span-like {
+  margin-left: 12px;
 }
 .hr {
   background-color: white;
 }
 .second-part-text {
   color: gray;
-  overflow-y: scroll;
-  max-height: 400px;
+
+  max-height: 700px;
 }
 .bi-person {
   margin-left: 80px;
@@ -71,38 +72,3 @@ i:hover {
 .bi-arrow {
   border-color: gray;
 }
-
-.queen {
-  position: absolute;
-  font-size: 90px;
-  font-weight: 700;
-  color: white;
-  left: 390px;
-  top: 320px;
-}
-.para-queen {
-  color: rgb(56, 51, 51);
-  font-size: larger;
-  font-weight: 600;
-  position: absolute;
-  left: 390px;
-  top: 420px;
-}
-.arrow1 {
-  position: absolute;
-  color: white;
-  font-size: 40px;
-  top: 0;
-  left: 320px;
-}
-.arrow2 {
-  position: absolute;
-  color: rgb(63, 56, 56);
-  font-size: 40px;
-  top: 0;
-  left: 400px;
-}
-/* .container2 {
-  height: 500px;
-  background-color: gray;
-} */
