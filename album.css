@@ -11,6 +11,10 @@ body {
   font-size: medium;
   width: 300px;
 }
+.inside-sidebar {
+  margin: 10px 10px;
+  font-size: small;
+}
 .photoalbum {
   width: calc(100vw - 300px);
   height: 100vh;
@@ -23,7 +27,7 @@ body {
 }
 .first {
   width: 100%;
-  height: 280px;
+  height: 298px;
 
   background: rgb(75, 28, 60);
   background: linear-gradient(
@@ -59,6 +63,9 @@ body {
   justify-content: space-between;
   margin: 20px 20px;
 }
+.arrow {
+  font-size: 25px;
+}
 .profile {
   width: 140px;
   display: flex;
@@ -89,8 +96,8 @@ body {
   margin-bottom: 0px;
 }
 .btn-btn {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   background-color: green;
   border-radius: 100%;
   display: flex;
@@ -103,7 +110,7 @@ body {
 }
 .play-dot {
   margin-left: 20px;
-  font-size: 25px;
+  font-size: 30px;
 }
 .title {
   display: flex;
@@ -140,33 +147,49 @@ i:hover {
   color: white;
 }
 .spotify-logo {
-  height: 50px;
+  height: 40px;
+  margin-left: 6px;
 }
 .text-spotify {
   font-size: x-large;
 }
+.home-search-library {
+  display: flex;
+  flex-direction: column;
+}
 .bi-side {
-  font-size: x-large;
+  font-size: medium;
   font-style: normal;
 }
 .text-home {
-  font-size: medium;
+  font-size: small;
+  margin-left: 12px;
+}
+.playlist-liked {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
 }
 .bi-playlist {
+  display: flex;
   border: gray;
-  font-style: normal;
+  font-style: medium;
 }
 .bi-liked {
   color: rgb(163, 152, 152);
   font-style: normal;
-  display: block !important;
+
+  font-size: medium;
+}
+.span-like {
+  margin-left: 12px;
 }
 .hr {
   background-color: white;
 }
 .second-part-text {
   color: gray;
-  overflow-y: scroll;
+
   max-height: 400px;
 }
 .bi-person {
