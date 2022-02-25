@@ -1,0 +1,305 @@
+.wraping {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+.sidebar {
+  background-color: black;
+  color: rgb(163, 152, 152);
+  font-size: medium;
+  width: 300px;
+}
+.inside-sidebar {
+  margin: 10px 10px;
+  font-size: small;
+}
+p:hover,
+i:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+}
+.spotify-logo {
+  height: 40px;
+  margin-left: 6px;
+}
+.text-spotify {
+  font-size: x-large;
+}
+.home-search-library {
+  display: flex;
+  flex-direction: column;
+}
+.bi-side {
+  font-size: x-large;
+  font-style: normal;
+}
+.text-home {
+  font-size: medium;
+  font-weight: 700;
+  margin-left: 12px;
+}
+.playlist-liked {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.bi-playlist {
+  display: flex;
+  border: gray;
+  font-style: medium;
+}
+.bi-liked {
+  color: rgb(163, 152, 152);
+  font-style: normal;
+
+  font-size: medium;
+}
+.span-like {
+  margin-left: 12px;
+}
+.hr {
+  background-color: white;
+}
+.second-part-text {
+  color: gray;
+  max-height: 150px;
+  font-weight: 500;
+  overflow-y: scroll;
+}
+.bi-person {
+  margin-left: 80px;
+}
+.bi-person2 {
+  margin-left: 89px;
+}
+.bi-arrow {
+  border-color: gray;
+}
+/* css for the content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+.content-pic {
+  height: 240px;
+  width: 100%;
+  background-image: url("https://cdn-az.allevents.in/events10/banners/743f032543970e96c3e5444032433314b29bc203a5e94bdddcd427fcd8aefefa-rimg-w526-h296-gmir.jpg?v=1601440126");
+  background-size: cover;
+}
+
+.music-list {
+  flex-grow: 1.3;
+  background: rgb(30, 29, 29);
+  background: linear-gradient(
+    0deg,
+    rgba(30, 29, 29, 1) 74%,
+    rgba(113, 111, 111, 1) 100%
+  );
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+  color: white;
+}
+.arrow {
+  font-size: 25px;
+}
+.profile {
+  width: 140px;
+  display: flex;
+  height: 30px;
+  background-color: black;
+  align-items: center;
+}
+h1 {
+  font-size: 4.5rem;
+}
+.profile-pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+}
+.img-profile {
+  border-radius: 100%;
+}
+
+.paraghs-item {
+  display: flex;
+  margin-left: 20px;
+  height: 150px;
+  align-items: flex-end;
+}
+.verified-item {
+  color: white;
+}
+/* css for music list  */
+.artist-main-section {
+  padding: 0px 10px;
+}
+.circle-btn {
+  display: flex;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  background-color: #37bb65;
+  margin-left: 0rem;
+  font-size: 14px;
+  font-weight: 500;
+  color: azure;
+}
+
+.circle-btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn-follow {
+  border: 1px solid white;
+  height: 28px;
+  width: 70px;
+  border-radius: 10%;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid {
+  color: aliceblue;
+}
+/* creating the music list div  */
+
+.main-div-wrapper {
+  display: flex;
+  margin: 20px 20px;
+  color: rgb(170, 163, 163);
+}
+.main-div1 {
+  flex-grow: 2;
+}
+
+.main-div2 {
+  flex-grow: 0.5;
+}
+.second-div-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-pick-wrapper {
+  display: flex;
+}
+.artist-img-detail {
+  margin-left: 10px;
+}
+
+.music-photo {
+  width: 2rem;
+  margin-left: 5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+.footerinnerdive {
+  flex: 2 1 auto;
+
+  min-height: 10px;
+  padding: 10px;
+  display: inherit;
+}
+
+.footerinnerdive0 {
+  flex: 3 0 auto;
+  min-height: 10px;
+
+  color: #0e0e0e;
+  display: inherit;
+  flex-direction: column;
+}
+
+.control {
+  margin-left: 200px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.control-item {
+  margin-right: 20px;
+}
+
+.progresdiv {
+  width: 500px;
+  height: 4px;
+  background-color: rgb(87, 87, 87);
+  border-radius: 10px;
+  margin-right: 0px;
+}
+
+.parent-progres-bar-div {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.progress-fill {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  width: 20%;
+}
+
+.play {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 100%;
+  color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerinnerdive1 {
+  flex: 2 0 auto;
+  display: flex;
+  min-height: 10px;
+  justify-content: end;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.volume-div {
+  padding-top: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.volume-bar {
+  height: 4px;
+  width: 100px;
+  background-color: #aaaaaa;
+  margin-left: 6px;
+  border-radius: 10px;
+}
+.last-item-div {
+  margin-right: 20px;
+}
