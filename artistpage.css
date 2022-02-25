@@ -1,13 +1,10 @@
-body {
-  background: linear-gradient(169deg, rgb(60, 14, 8) 0%, rgb(14, 14, 15) 46%);
-  min-height: 100vh;
-}
 .wraping {
   display: flex;
 }
 .sidebar {
   background-color: black;
   color: rgb(163, 152, 152);
+
   font-size: medium;
   width: 300px;
 }
@@ -76,84 +73,63 @@ i:hover {
   border-color: gray;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-header svg {
-  color: #dee2e6;
-  width: 20px;
-  height: 20px;
-}
-.top-section {
+.artist-main-section {
+  min-height: 100vh;
+  background: rgb(103, 103, 103);
+  background: linear-gradient(
+    180deg,
+    rgba(103, 103, 103, 1) 0%,
+    rgb(36, 35, 35) 16%,
+    rgb(17, 13, 13) 24%,
+    rgb(0, 0, 0) 26%
+  );
+  padding-top: 2rem;
   padding: 0px 10px;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-  color: #dee2e6;
-  font-weight: 30;
-  font-size: 0.75em;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: azure;
+  font-family: "Roboto", sans-serif;
 }
-h4 {
-  color: #dee2e6;
-  font-weight: 500;
-  font-size: medium;
-}
-
-div.opacity {
-  background: rgba(46, 45, 45, 0.5);
-}
-
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.box {
-  width: auto;
+.circle {
   display: flex;
   align-items: center;
-  margin: 20px;
-  border-radius: 8px;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50px;
+  background-color: #37bb65;
+  margin-left: 0rem;
 }
-
-.box img {
-  max-width: 80px;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
-}
-
-.box_title {
-  margin-left: 5px;
-  color: white;
+.circle {
+  font-size: 20px;
   font-weight: 500;
-  font-size: 1.3em;
+  color: azure;
 }
-.large-boxes {
-  display: flex;
-  padding: auto;
+.btn {
+  padding: 4px 20px;
+  border: 1px solid azure;
+  margin-left: 2rem;
 }
-
-.large-boxes_box {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  width: 100%;
-  font-size: 0.9rem;
+.fa-solid {
+  color: aliceblue;
 }
-
-.large-boxes_box-title {
-  padding: 8px 0;
+.btn + i {
+  font-size: 24px;
+  margin-left: 2rem;
 }
-
-.large-boxes_box-title-description {
-  font-weight: 100;
-  font-size: 0.6rem;
+.popular {
+  margin-left: -1rem;
+  margin-top: 2rem;
 }
 
-.large-boxes_box img {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
+.music-photo {
+  width: 2rem;
+  margin-right: 2rem;
 }
