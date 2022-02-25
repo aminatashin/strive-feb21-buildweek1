@@ -3,7 +3,7 @@ body {
 }
 .wraping {
   display: flex;
-  height: 858px;
+  height: 930px;
 }
 .sidebar {
   background-color: black;
@@ -159,12 +159,16 @@ i:hover {
   flex-direction: column;
 }
 .bi-side {
-  font-size: medium;
+  font-size: x-large;
   font-style: normal;
 }
+/* .bi-file-plus-fill {
+  font-size: x-large;
+} */
 .text-home {
-  font-size: small;
+  font-size: medium;
   margin-left: 12px;
+  font-weight: 700;
 }
 .playlist-liked {
   display: flex;
@@ -192,6 +196,7 @@ i:hover {
   color: gray;
 
   min-height: 300px;
+  font-weight: 700;
 }
 .bi-person {
   margin-left: 80px;
