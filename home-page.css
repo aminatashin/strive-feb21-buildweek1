@@ -11,6 +11,7 @@ p {
 .wraping {
   display: flex;
   margin-left: -20px;
+  height: calc(100vh - 70px);
 }
 .sidebar {
   background-color: black;
@@ -92,7 +93,7 @@ i:hover {
   flex: 1;
   color: white;
   width: 70%;
-  height: calc(100vh-70px);
+  height: calc(100vh - 70px);
 }
 
 /* good morning div */
@@ -206,8 +207,6 @@ i:hover {
   overflow: hidden;
   box-shadow: 6px 6px 10px black;
 }
-.img-fluid-custome {
-}
 
 .content-of-child-of-recently-played-div-div-love {
   display: flex;
@@ -281,8 +280,7 @@ i:hover {
 .img {
   border-radius: 6px;
 }
-.img-div {
-}
+
 .paraDiv {
   margin-top: 20px;
   overflow: hidden;

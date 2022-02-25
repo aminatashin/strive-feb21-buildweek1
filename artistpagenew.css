@@ -1,3 +1,6 @@
+body {
+  background: rgb(18, 18, 18);
+}
 .wraping {
   display: flex;
   height: calc(100vh - 70px);
@@ -6,6 +9,7 @@
   background-color: black;
   color: rgb(163, 152, 152);
   font-size: medium;
+  max-height: 800px;
   width: 300px;
 }
 .inside-sidebar {
@@ -61,15 +65,15 @@ i:hover {
 }
 .second-part-text {
   color: gray;
-  max-height: 250px;
+  max-height: 350px;
   font-weight: 500;
   overflow-y: scroll;
 }
 .bi-person {
-  margin-left: 80px;
+  margin-left: 140px;
 }
 .bi-person2 {
-  margin-left: 89px;
+  margin-left: 140px;
 }
 .bi-arrow {
   border-color: gray;
