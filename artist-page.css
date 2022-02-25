@@ -1,0 +1,74 @@
+.wraping {
+  display: flex;
+}
+.sidebar {
+  background-color: black;
+  color: rgb(163, 152, 152);
+
+  font-size: medium;
+  width: 300px;
+}
+.inside-sidebar {
+  margin: 10px 10px;
+  font-size: small;
+}
+p:hover,
+i:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+}
+.spotify-logo {
+  height: 40px;
+  margin-left: 6px;
+}
+.text-spotify {
+  font-size: x-large;
+}
+.home-search-library {
+  display: flex;
+  flex-direction: column;
+}
+.bi-side {
+  font-size: medium;
+  font-style: normal;
+}
+.text-home {
+  font-size: small;
+  margin-left: 12px;
+}
+.playlist-liked {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.bi-playlist {
+  display: flex;
+  border: gray;
+  font-style: medium;
+}
+.bi-liked {
+  color: rgb(163, 152, 152);
+  font-style: normal;
+
+  font-size: medium;
+}
+.span-like {
+  margin-left: 12px;
+}
+.hr {
+  background-color: white;
+}
+.second-part-text {
+  color: gray;
+
+  max-height: 700px;
+}
+.bi-person {
+  margin-left: 80px;
+}
+.bi-person2 {
+  margin-left: 89px;
+}
+.bi-arrow {
+  border-color: gray;
+}
