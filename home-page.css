@@ -338,6 +338,14 @@ box-shadow: 6px 6px 10px black;
   padding: 10px;
   display: inherit;
 }
+p:hover,
+i:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+}
+.spotify-logo {
+  height: 50px;
+}
 
 .footerinnerdive0{
   flex: 3 0 auto;
@@ -368,6 +376,35 @@ height: 4px;
 background-color: rgb(87, 87, 87);
 border-radius: 10px;
 margin-right: 0px;
+}
+.bi-playlist {
+  border: gray;
+  font-style: normal;
+}
+.bi-liked {
+  color: rgb(163, 152, 152);
+  font-style: normal;
+}
+.hr {
+  background-color: white;
+}
+.second-part-text {
+  color: gray;
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.bi-person {
+  margin-left: 80px;
+}
+.bi-person2 {
+  margin-left: 89px;
+}
+.bi-arrow {
+  border-color: gray;
+}
+.center-container {
+  margin-left: 345px;
+  margin-right: auto;
 }
 
 .parent-progres-bar-div{
