@@ -61,7 +61,7 @@ i:hover {
 }
 .second-part-text {
   color: gray;
-  max-height: 150px;
+  max-height: 250px;
   font-weight: 500;
   overflow-y: scroll;
 }
@@ -302,4 +302,9 @@ h1 {
 }
 .last-item-div {
   margin-right: 20px;
+}
+a {
+  color: rgb(163, 152, 152);
+  text-decoration: none;
+  background-color: transparent;
 }
